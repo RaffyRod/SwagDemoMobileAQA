@@ -1,6 +1,9 @@
 {
   "name": "webdio-test",
-  "type": "module",
+  "scripts": {
+    "local": "wdio run wdio.conf.js"
+  },
+
   "devDependencies": {
     "@wdio/allure-reporter": "^9.11.0",
     "@wdio/appium-service": "^9.12.1",

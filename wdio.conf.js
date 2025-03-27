@@ -53,11 +53,11 @@ export const config = {
     capabilities: [{
         // capabilities for local Appium web tests on an Android Emulator
         platformName: 'Android',
-        "appium:noReset": true,
+        "appium:noReset": false,
         "platformName": "Android",
         "appium:automationName": "UiAutomator2",
         "appium:platformVersion": "14",
-        "appium:udid": "23071FDF6000L3",
+        "appium:udid": "emulator-5554",
         "appium:appPackage": "com.swaglabsmobileapp",
         "appium:appActivity": "com.swaglabsmobileapp.SplashActivity"
     }],
