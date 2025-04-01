@@ -5,7 +5,19 @@ export const config = {
     // ====================
     // WebdriverIO supports running e2e tests as well as unit and component tests.
     runner: 'local',
-    port: 4723,
+    services: [
+        ['appium', {
+          command: 'appium',
+          args: {
+            // Use a fixed port instead of random
+            port: 4723,
+            // Add other args as needed
+            relaxedSecurity: true,
+            address: 'localhost'
+          },
+          logPath: './logs/'
+        }]
+      ],
     //
     // ==================
     // Specify Test Files
