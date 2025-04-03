@@ -9,17 +9,3 @@ exports.ProductPage = class ProductPage {
         await expect(this.productHeader).toHaveText('PRODUCTS');
     }
   };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
