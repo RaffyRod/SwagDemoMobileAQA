@@ -5,7 +5,19 @@ export const config = {
     // ====================
     // WebdriverIO supports running e2e tests as well as unit and component tests.
     runner: 'local',
-    port: 4723,
+    services: [
+        ['appium', {
+          command: 'appium',
+          args: {
+            // Use a fixed port instead of random
+            port: 4723,
+            // Add other args as needed
+            relaxedSecurity: true,
+            address: 'localhost'
+          },
+          logPath: './logs/'
+        }]
+      ],
     //
     // ==================
     // Specify Test Files
@@ -53,11 +65,11 @@ export const config = {
     capabilities: [{
         // capabilities for local Appium web tests on an Android Emulator
         platformName: 'Android',
-        "appium:noReset": true,
+        "appium:noReset": false,
         "platformName": "Android",
         "appium:automationName": "UiAutomator2",
         "appium:platformVersion": "14",
-        "appium:udid": "23071FDF6000L3",
+        "appium:udid": "emulator-5554",
         "appium:appPackage": "com.swaglabsmobileapp",
         "appium:appActivity": "com.swaglabsmobileapp.SplashActivity"
     }],
