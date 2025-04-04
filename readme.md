@@ -11,6 +11,7 @@ Before running the tests, ensure you have the following installed:
 - Node.js (v16 or higher recommended)
 - npm (comes with Node.js)
 - Appium (v2.x)
+- Appium inspector
 - Java JDK (for Android testing)
 - Xcode (for iOS testing)
 - Android SDK (for Android testing)
