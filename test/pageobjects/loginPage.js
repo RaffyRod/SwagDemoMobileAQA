@@ -1,19 +1,19 @@
 exports.LoginPage = class LoginPage {
     // Element getters
     get usernameField() {
-      return $('//android.widget.EditText[@content-desc="test-Username"]');
-    }
+      return $('~test-Username'); // Selector por accessibility id
+  }
 
-    get passwordField() {
-      return $('//android.widget.EditText[@content-desc="test-Password"]');
-    }
+  get passwordField() {
+      return $('~test-Password'); // Selector por accessibility id
+  }
 
-    get loginButton() {
-      return $('//android.view.ViewGroup[@content-desc="test-LOGIN"]');
-    }
+  get loginButton() {
+      return $('~test-LOGIN'); // Selector por accessibility id
+  }
 
     async loginProcess(user, pass) {
-      // Handle username field
+      console.log('Performing login process');
       await this.usernameField.waitForDisplayed({ timeout: 10000 });
       await this.usernameField.click();
       await this.usernameField.clearValue();
