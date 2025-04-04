@@ -1,0 +1,9 @@
+{
+    "_comment": "This is daa for Login",
+    "standardUser": "standard_user",
+    "standardUserPass": "secret_sauce",
+    "SuccessfulDeletion": "The #entity# was deleted successfully",
+
+    "_comment2": "This is daa for PRODUCTS",
+    "productsPageHeader": "PRODUCTS"
+  }
