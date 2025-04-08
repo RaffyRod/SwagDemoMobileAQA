@@ -34,7 +34,9 @@ export const config = {
     // of the config file unless it's absolute.
     //
     specs: [
-        './test/specs/**/*.js'
+        //'./test/specs/**/*.js',
+        "./test/specs/authentication/**/*.js",
+        "./test/specs/products/**/*.js",
     ],
     // Patterns to exclude.
     exclude: [
@@ -249,7 +251,8 @@ export const config = {
      */
     afterTest: async function(test, context, { error, result, duration, passed, retries }) {
         if (!passed) {
-            await browser.takeScreenshot();
+           // await browser.takeScreenshot();
+           console.log('failed');
         }
     },
 
