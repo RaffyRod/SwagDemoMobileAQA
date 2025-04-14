@@ -1,3 +1,4 @@
+import  path from 'path';
 export const config = {
     //
     // ====================
@@ -67,13 +68,17 @@ export const config = {
     capabilities: [{
         // capabilities for local Appium web tests on an Android Emulator
         platformName: 'Android',
-        "appium:noReset": false,
+       // "appium:noReset": false,
+        "appium:fullReset": true,
         "platformName": "Android",
         "appium:automationName": "UiAutomator2",
         "appium:platformVersion": "14",
         "appium:udid": "emulator-5554",
         "appium:appPackage": "com.swaglabsmobileapp",
-        "appium:appActivity": "com.swaglabsmobileapp.SplashActivity"
+        "appium:appActivity": "com.swaglabsmobileapp.SplashActivity",
+        //"appium:app": "./Apps/Android/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk",
+        'appium:app': path.join(process.cwd(), './Apps/Android/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk'),
+        'appium:appium:appSigner': 'C:\\Users\\Raffy Rodriguez\\AppData\\Local\\Android\\Sdk\\build-tools\\36.0.0\\lib\\apksigner.jar'
     }],
 
     //

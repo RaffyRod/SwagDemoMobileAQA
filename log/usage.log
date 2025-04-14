@@ -1,0 +1,42 @@
+2025-04-09 22:44:11 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js node test/specs/**/*.js
+2025-04-09 22:44:11 - [32minfo[39m: Reading configs from C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\browserstack.yml
+2025-04-09 22:44:11 - [32minfo[39m: SDK run started with id: dea90bbe-7d47-4962-ba2b-64588aa50f0b
+2025-04-09 22:44:11 - [31merror[39m: TypeError: Cannot read properties of null (reading 'split')
+    at exports.compareVersions (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\helper.js:1:151478)
+    at new BrowserStackSetup (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\BrowserStackSetup.js:1:13158)
+    at run (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\vanilla-js\command.js:2:1901)
+    at Object.gtcsn (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1551)
+    at captureError (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1705)
+    at Object.oGqcc (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:8680)
+    at C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:8909
+    at _.applyBuilderUpdateUsageAndParse (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\yargs\build\index.cjs:1:7435)
+    at _.runCommand (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\yargs\build\index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\yargs\build\index.cjs:1:58539)
+2025-04-09 22:46:03 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js node test/specs/**/productsInteractions.js
+2025-04-09 22:46:03 - [32minfo[39m: Reading configs from C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\browserstack.yml
+2025-04-09 22:46:03 - [32minfo[39m: SDK run started with id: 26eeaec2-d58b-4ac8-8dc0-00210ffc27d1
+2025-04-09 22:46:03 - [31merror[39m: TypeError: Cannot read properties of null (reading 'split')
+    at exports.compareVersions (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\helper.js:1:151478)
+    at new BrowserStackSetup (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\BrowserStackSetup.js:1:13158)
+    at run (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\vanilla-js\command.js:2:1901)
+    at Object.gtcsn (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1551)
+    at captureError (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1705)
+    at Object.oGqcc (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:8680)
+    at C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:8909
+    at _.applyBuilderUpdateUsageAndParse (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\yargs\build\index.cjs:1:7435)
+    at _.runCommand (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\yargs\build\index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\yargs\build\index.cjs:1:58539)
+2025-04-09 22:46:30 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js node test/specs/products/productsInteractions.js
+2025-04-09 22:46:30 - [32minfo[39m: Reading configs from C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\browserstack.yml
+2025-04-09 22:46:30 - [32minfo[39m: SDK run started with id: 5220cef0-85b9-4d9f-8614-257745480971
+2025-04-09 22:46:30 - [31merror[39m: TypeError: Cannot read properties of null (reading 'split')
+    at exports.compareVersions (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\helper.js:1:151478)
+    at new BrowserStackSetup (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\BrowserStackSetup.js:1:13158)
+    at run (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\vanilla-js\command.js:2:1901)
+    at Object.gtcsn (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1551)
+    at captureError (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1705)
+    at Object.oGqcc (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:8680)
+    at C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:8909
+    at _.applyBuilderUpdateUsageAndParse (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\yargs\build\index.cjs:1:7435)
+    at _.runCommand (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\yargs\build\index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\yargs\build\index.cjs:1:58539)

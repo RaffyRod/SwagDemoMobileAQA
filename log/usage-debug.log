@@ -1,0 +1,213 @@
+2025-04-09 22:44:11 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js node test/specs/**/*.js
+2025-04-09 22:44:11 - [32minfo[39m: Reading configs from C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\browserstack.yml
+2025-04-09 22:44:11 - [32minfo[39m: SDK run started with id: dea90bbe-7d47-4962-ba2b-64588aa50f0b
+2025-04-09 22:44:11 - [34mdebug[39m: requireModuleV3 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:44:11 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module 'selenium-webdriver'
+Require stack:
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\helper.js
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js
+2025-04-09 22:44:11 - [34mdebug[39m: requireModuleV2 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:44:11 - [34mdebug[39m: Getting selenium-webdriver/package.json from C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:44:11 - [34mdebug[39m: selenium-webdriver/package.json doesn't exist at C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:44:11 - [34mdebug[39m: Getting selenium-webdriver/package.json from path C:\Users\Raffy
+2025-04-09 22:44:11 - [34mdebug[39m: Getting selenium-webdriver/package.json from null
+2025-04-09 22:44:11 - [34mdebug[39m: Error while loading package. Error: selenium-webdriver/package.json doesn't exist.
+2025-04-09 22:44:11 - [34mdebug[39m: requireModuleV3 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:44:11 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module 'selenium-webdriver'
+Require stack:
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\helper.js
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js
+2025-04-09 22:44:11 - [34mdebug[39m: requireModuleV2 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:44:11 - [34mdebug[39m: Getting selenium-webdriver/package.json from C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:44:11 - [34mdebug[39m: selenium-webdriver/package.json doesn't exist at C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:44:11 - [34mdebug[39m: Getting selenium-webdriver/package.json from path C:\Users\Raffy
+2025-04-09 22:44:11 - [34mdebug[39m: Getting selenium-webdriver/package.json from null
+2025-04-09 22:44:11 - [34mdebug[39m: Error while loading package. Error: selenium-webdriver/package.json doesn't exist.
+2025-04-09 22:44:11 - [31merror[39m: TypeError: Cannot read properties of null (reading 'split')
+    at exports.compareVersions (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\helper.js:1:151478)
+    at new BrowserStackSetup (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\BrowserStackSetup.js:1:13158)
+    at run (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\vanilla-js\command.js:2:1901)
+    at Object.gtcsn (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1551)
+    at captureError (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1705)
+    at Object.oGqcc (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:8680)
+    at C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:8909
+    at _.applyBuilderUpdateUsageAndParse (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\yargs\build\index.cjs:1:7435)
+    at _.runCommand (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\yargs\build\index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\yargs\build\index.cjs:1:58539)
+2025-04-09 22:44:11 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-09 22:44:11 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module '@playwright/test'
+Require stack:
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\helper.js
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js
+2025-04-09 22:44:11 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-09 22:44:11 - [34mdebug[39m: Getting @playwright/test/package.json from C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:44:11 - [34mdebug[39m: @playwright/test/package.json doesn't exist at C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:44:11 - [34mdebug[39m: Getting @playwright/test/package.json from path C:\Users\Raffy
+2025-04-09 22:44:11 - [34mdebug[39m: Getting @playwright/test/package.json from null
+2025-04-09 22:44:11 - [34mdebug[39m: Error while loading package. Error: @playwright/test/package.json doesn't exist.
+2025-04-09 22:44:11 - [34mdebug[39m: requireModuleV3 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:44:11 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module 'selenium-webdriver'
+Require stack:
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\helper.js
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js
+2025-04-09 22:44:11 - [34mdebug[39m: requireModuleV2 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:44:11 - [34mdebug[39m: Getting selenium-webdriver/package.json from C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:44:11 - [34mdebug[39m: selenium-webdriver/package.json doesn't exist at C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:44:11 - [34mdebug[39m: Getting selenium-webdriver/package.json from path C:\Users\Raffy
+2025-04-09 22:44:11 - [34mdebug[39m: Getting selenium-webdriver/package.json from null
+2025-04-09 22:44:11 - [34mdebug[39m: Error while loading package. Error: selenium-webdriver/package.json doesn't exist.
+2025-04-09 22:44:11 - [34mdebug[39m: requireModuleV3 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:44:11 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module 'selenium-webdriver'
+Require stack:
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\helper.js
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js
+2025-04-09 22:44:11 - [34mdebug[39m: requireModuleV2 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:44:11 - [34mdebug[39m: Getting selenium-webdriver/package.json from C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:44:11 - [34mdebug[39m: selenium-webdriver/package.json doesn't exist at C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:44:11 - [34mdebug[39m: Getting selenium-webdriver/package.json from path C:\Users\Raffy
+2025-04-09 22:44:11 - [34mdebug[39m: Getting selenium-webdriver/package.json from null
+2025-04-09 22:44:11 - [34mdebug[39m: Error while loading package. Error: selenium-webdriver/package.json doesn't exist.
+2025-04-09 22:44:11 - [34mdebug[39m: Firing SDK event for funnel data: {"userName":"[REDACTED]","accessKey":"[REDACTED]","event_type":"SDKTestSuccessful","detectedFramework":"vanilla","optimalHubUrl":[],"event_properties":{"testhub_uuid":"","sdkRunId":"dea90bbe-7d47-4962-ba2b-64588aa50f0b","product_map":{"observability":true,"accessibility":false,"percy":false,"automate":false,"app_automate":true,"central_scanner":false,"lcnc":false},"productMap":{"observability":true,"accessibility":false,"percy":false,"automate":false,"app_automate":true,"central_scanner":false,"lcnc":false},"language_framework":"unknown","referrer":"vanilla-nodeagent/1.34.51","frameworkVersion":null,"automationFramework":"selenium","automationFrameworkVersion":null,"language":"nodejs","languageVersion":"v23.6.0","product":["app-automate","observability"],"buildName":"browserstack-build-1","buildIdentifier":"#14","os":"Windows_NT","hostname":"RAR_Laptop","globalException":"Cannot read properties of null (reading 'split')","browserStackConfig":{"platforms":[{"platformName":"android","deviceName":"Samsung Galaxy S21 Ultra","platformVersion":11},{"platformName":"android","deviceName":"Huawei P30","platformVersion":9},{"platformName":"android","deviceName":"Samsung Galaxy S21","platformVersion":12}],"browserstackLocal":true,"testContextOptions":{"skipSessionStatus":false,"skipSessionName":false},"browserStackLocalOptions":{"localIdentifier":"9_Apr_2244_RAR_Laptop_y2pj","skipBinaryInitialisation":false}},"seleniumVersion":null}}
+2025-04-09 22:44:12 - [34mdebug[39m: API Event SDKTestSuccessful response - {"data":{"message":"SDK Event recorded successfully"},"body":"{\"message\":\"SDK Event recorded successfully\"}","statusCode":200}
+2025-04-09 22:46:03 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js node test/specs/**/productsInteractions.js
+2025-04-09 22:46:03 - [32minfo[39m: Reading configs from C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\browserstack.yml
+2025-04-09 22:46:03 - [32minfo[39m: SDK run started with id: 26eeaec2-d58b-4ac8-8dc0-00210ffc27d1
+2025-04-09 22:46:03 - [34mdebug[39m: requireModuleV3 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:46:03 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module 'selenium-webdriver'
+Require stack:
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\helper.js
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js
+2025-04-09 22:46:03 - [34mdebug[39m: requireModuleV2 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:46:03 - [34mdebug[39m: Getting selenium-webdriver/package.json from C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:46:03 - [34mdebug[39m: selenium-webdriver/package.json doesn't exist at C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:46:03 - [34mdebug[39m: Getting selenium-webdriver/package.json from path C:\Users\Raffy
+2025-04-09 22:46:03 - [34mdebug[39m: Getting selenium-webdriver/package.json from null
+2025-04-09 22:46:03 - [34mdebug[39m: Error while loading package. Error: selenium-webdriver/package.json doesn't exist.
+2025-04-09 22:46:03 - [34mdebug[39m: requireModuleV3 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:46:03 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module 'selenium-webdriver'
+Require stack:
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\helper.js
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js
+2025-04-09 22:46:03 - [34mdebug[39m: requireModuleV2 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:46:03 - [34mdebug[39m: Getting selenium-webdriver/package.json from C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:46:03 - [34mdebug[39m: selenium-webdriver/package.json doesn't exist at C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:46:03 - [34mdebug[39m: Getting selenium-webdriver/package.json from path C:\Users\Raffy
+2025-04-09 22:46:03 - [34mdebug[39m: Getting selenium-webdriver/package.json from null
+2025-04-09 22:46:03 - [34mdebug[39m: Error while loading package. Error: selenium-webdriver/package.json doesn't exist.
+2025-04-09 22:46:03 - [31merror[39m: TypeError: Cannot read properties of null (reading 'split')
+    at exports.compareVersions (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\helper.js:1:151478)
+    at new BrowserStackSetup (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\BrowserStackSetup.js:1:13158)
+    at run (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\vanilla-js\command.js:2:1901)
+    at Object.gtcsn (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1551)
+    at captureError (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1705)
+    at Object.oGqcc (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:8680)
+    at C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:8909
+    at _.applyBuilderUpdateUsageAndParse (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\yargs\build\index.cjs:1:7435)
+    at _.runCommand (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\yargs\build\index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\yargs\build\index.cjs:1:58539)
+2025-04-09 22:46:03 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-09 22:46:03 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module '@playwright/test'
+Require stack:
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\helper.js
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js
+2025-04-09 22:46:03 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-09 22:46:03 - [34mdebug[39m: Getting @playwright/test/package.json from C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:46:03 - [34mdebug[39m: @playwright/test/package.json doesn't exist at C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:46:03 - [34mdebug[39m: Getting @playwright/test/package.json from path C:\Users\Raffy
+2025-04-09 22:46:03 - [34mdebug[39m: Getting @playwright/test/package.json from null
+2025-04-09 22:46:03 - [34mdebug[39m: Error while loading package. Error: @playwright/test/package.json doesn't exist.
+2025-04-09 22:46:03 - [34mdebug[39m: requireModuleV3 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:46:03 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module 'selenium-webdriver'
+Require stack:
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\helper.js
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js
+2025-04-09 22:46:03 - [34mdebug[39m: requireModuleV2 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:46:03 - [34mdebug[39m: Getting selenium-webdriver/package.json from C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:46:03 - [34mdebug[39m: selenium-webdriver/package.json doesn't exist at C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:46:03 - [34mdebug[39m: Getting selenium-webdriver/package.json from path C:\Users\Raffy
+2025-04-09 22:46:03 - [34mdebug[39m: Getting selenium-webdriver/package.json from null
+2025-04-09 22:46:03 - [34mdebug[39m: Error while loading package. Error: selenium-webdriver/package.json doesn't exist.
+2025-04-09 22:46:03 - [34mdebug[39m: requireModuleV3 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:46:03 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module 'selenium-webdriver'
+Require stack:
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\helper.js
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js
+2025-04-09 22:46:03 - [34mdebug[39m: requireModuleV2 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:46:03 - [34mdebug[39m: Getting selenium-webdriver/package.json from C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:46:03 - [34mdebug[39m: selenium-webdriver/package.json doesn't exist at C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:46:03 - [34mdebug[39m: Getting selenium-webdriver/package.json from path C:\Users\Raffy
+2025-04-09 22:46:03 - [34mdebug[39m: Getting selenium-webdriver/package.json from null
+2025-04-09 22:46:03 - [34mdebug[39m: Error while loading package. Error: selenium-webdriver/package.json doesn't exist.
+2025-04-09 22:46:03 - [34mdebug[39m: Firing SDK event for funnel data: {"userName":"[REDACTED]","accessKey":"[REDACTED]","event_type":"SDKTestSuccessful","detectedFramework":"vanilla","optimalHubUrl":[],"event_properties":{"testhub_uuid":"","sdkRunId":"26eeaec2-d58b-4ac8-8dc0-00210ffc27d1","product_map":{"observability":true,"accessibility":false,"percy":false,"automate":false,"app_automate":true,"central_scanner":false,"lcnc":false},"productMap":{"observability":true,"accessibility":false,"percy":false,"automate":false,"app_automate":true,"central_scanner":false,"lcnc":false},"language_framework":"unknown","referrer":"vanilla-nodeagent/1.34.51","frameworkVersion":null,"automationFramework":"selenium","automationFrameworkVersion":null,"language":"nodejs","languageVersion":"v23.6.0","product":["app-automate","observability"],"buildName":"browserstack-build-1","buildIdentifier":"#15","os":"Windows_NT","hostname":"RAR_Laptop","globalException":"Cannot read properties of null (reading 'split')","browserStackConfig":{"platforms":[{"platformName":"android","deviceName":"Samsung Galaxy S21 Ultra","platformVersion":11},{"platformName":"android","deviceName":"Huawei P30","platformVersion":9},{"platformName":"android","deviceName":"Samsung Galaxy S21","platformVersion":12}],"browserstackLocal":true,"testContextOptions":{"skipSessionStatus":false,"skipSessionName":false},"browserStackLocalOptions":{"localIdentifier":"9_Apr_2246_RAR_Laptop_r73p","skipBinaryInitialisation":false}},"seleniumVersion":null}}
+2025-04-09 22:46:04 - [34mdebug[39m: API Event SDKTestSuccessful response - {"data":{"message":"SDK Event recorded successfully"},"body":"{\"message\":\"SDK Event recorded successfully\"}","statusCode":200}
+2025-04-09 22:46:30 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js node test/specs/products/productsInteractions.js
+2025-04-09 22:46:30 - [32minfo[39m: Reading configs from C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\browserstack.yml
+2025-04-09 22:46:30 - [32minfo[39m: SDK run started with id: 5220cef0-85b9-4d9f-8614-257745480971
+2025-04-09 22:46:30 - [34mdebug[39m: requireModuleV3 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:46:30 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module 'selenium-webdriver'
+Require stack:
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\helper.js
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js
+2025-04-09 22:46:30 - [34mdebug[39m: requireModuleV2 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:46:30 - [34mdebug[39m: Getting selenium-webdriver/package.json from C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:46:30 - [34mdebug[39m: selenium-webdriver/package.json doesn't exist at C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:46:30 - [34mdebug[39m: Getting selenium-webdriver/package.json from path C:\Users\Raffy
+2025-04-09 22:46:30 - [34mdebug[39m: Getting selenium-webdriver/package.json from null
+2025-04-09 22:46:30 - [34mdebug[39m: Error while loading package. Error: selenium-webdriver/package.json doesn't exist.
+2025-04-09 22:46:30 - [34mdebug[39m: requireModuleV3 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:46:30 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module 'selenium-webdriver'
+Require stack:
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\helper.js
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js
+2025-04-09 22:46:30 - [34mdebug[39m: requireModuleV2 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:46:30 - [34mdebug[39m: Getting selenium-webdriver/package.json from C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:46:30 - [34mdebug[39m: selenium-webdriver/package.json doesn't exist at C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:46:30 - [34mdebug[39m: Getting selenium-webdriver/package.json from path C:\Users\Raffy
+2025-04-09 22:46:30 - [34mdebug[39m: Getting selenium-webdriver/package.json from null
+2025-04-09 22:46:30 - [34mdebug[39m: Error while loading package. Error: selenium-webdriver/package.json doesn't exist.
+2025-04-09 22:46:30 - [31merror[39m: TypeError: Cannot read properties of null (reading 'split')
+    at exports.compareVersions (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\helper.js:1:151478)
+    at new BrowserStackSetup (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\BrowserStackSetup.js:1:13158)
+    at run (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\vanilla-js\command.js:2:1901)
+    at Object.gtcsn (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1551)
+    at captureError (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1705)
+    at Object.oGqcc (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:8680)
+    at C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js:2:8909
+    at _.applyBuilderUpdateUsageAndParse (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\yargs\build\index.cjs:1:7435)
+    at _.runCommand (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\yargs\build\index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\yargs\build\index.cjs:1:58539)
+2025-04-09 22:46:30 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-09 22:46:30 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module '@playwright/test'
+Require stack:
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\helper.js
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js
+2025-04-09 22:46:30 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-09 22:46:30 - [34mdebug[39m: Getting @playwright/test/package.json from C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:46:30 - [34mdebug[39m: @playwright/test/package.json doesn't exist at C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:46:30 - [34mdebug[39m: Getting @playwright/test/package.json from path C:\Users\Raffy
+2025-04-09 22:46:30 - [34mdebug[39m: Getting @playwright/test/package.json from null
+2025-04-09 22:46:30 - [34mdebug[39m: Error while loading package. Error: @playwright/test/package.json doesn't exist.
+2025-04-09 22:46:30 - [34mdebug[39m: requireModuleV3 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:46:30 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module 'selenium-webdriver'
+Require stack:
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\helper.js
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js
+2025-04-09 22:46:30 - [34mdebug[39m: requireModuleV2 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:46:30 - [34mdebug[39m: Getting selenium-webdriver/package.json from C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:46:30 - [34mdebug[39m: selenium-webdriver/package.json doesn't exist at C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:46:30 - [34mdebug[39m: Getting selenium-webdriver/package.json from path C:\Users\Raffy
+2025-04-09 22:46:30 - [34mdebug[39m: Getting selenium-webdriver/package.json from null
+2025-04-09 22:46:30 - [34mdebug[39m: Error while loading package. Error: selenium-webdriver/package.json doesn't exist.
+2025-04-09 22:46:30 - [34mdebug[39m: requireModuleV3 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:46:30 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module 'selenium-webdriver'
+Require stack:
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\helpers\helper.js
+- C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test\node_modules\browserstack-node-sdk\src\bin\runner.js
+2025-04-09 22:46:30 - [34mdebug[39m: requireModuleV2 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-09 22:46:30 - [34mdebug[39m: Getting selenium-webdriver/package.json from C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:46:30 - [34mdebug[39m: selenium-webdriver/package.json doesn't exist at C:\Users\Raffy Rodriguez\Desktop\Codigo y Trabajos\Automation\Appium\Apps de pruebas\webdio-test
+2025-04-09 22:46:30 - [34mdebug[39m: Getting selenium-webdriver/package.json from path C:\Users\Raffy
+2025-04-09 22:46:30 - [34mdebug[39m: Getting selenium-webdriver/package.json from null
+2025-04-09 22:46:30 - [34mdebug[39m: Error while loading package. Error: selenium-webdriver/package.json doesn't exist.
+2025-04-09 22:46:30 - [34mdebug[39m: Firing SDK event for funnel data: {"userName":"[REDACTED]","accessKey":"[REDACTED]","event_type":"SDKTestSuccessful","detectedFramework":"vanilla","optimalHubUrl":[],"event_properties":{"testhub_uuid":"","sdkRunId":"5220cef0-85b9-4d9f-8614-257745480971","product_map":{"observability":true,"accessibility":false,"percy":false,"automate":false,"app_automate":true,"central_scanner":false,"lcnc":false},"productMap":{"observability":true,"accessibility":false,"percy":false,"automate":false,"app_automate":true,"central_scanner":false,"lcnc":false},"language_framework":"unknown","referrer":"vanilla-nodeagent/1.34.51","frameworkVersion":null,"automationFramework":"selenium","automationFrameworkVersion":null,"language":"nodejs","languageVersion":"v23.6.0","product":["app-automate","observability"],"buildName":"browserstack-build-1","buildIdentifier":"#16","os":"Windows_NT","hostname":"RAR_Laptop","globalException":"Cannot read properties of null (reading 'split')","browserStackConfig":{"platforms":[{"platformName":"android","deviceName":"Samsung Galaxy S21 Ultra","platformVersion":11},{"platformName":"android","deviceName":"Huawei P30","platformVersion":9},{"platformName":"android","deviceName":"Samsung Galaxy S21","platformVersion":12}],"browserstackLocal":true,"testContextOptions":{"skipSessionStatus":false,"skipSessionName":false},"browserStackLocalOptions":{"localIdentifier":"9_Apr_2246_RAR_Laptop_01rq","skipBinaryInitialisation":false}},"seleniumVersion":null}}
+2025-04-09 22:46:31 - [34mdebug[39m: API Event SDKTestSuccessful response - {"data":{"message":"SDK Event recorded successfully"},"body":"{\"message\":\"SDK Event recorded successfully\"}","statusCode":200}
