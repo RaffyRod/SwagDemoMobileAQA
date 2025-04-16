@@ -1,9 +1,10 @@
 {
   "name": "webdio-test",
   "scripts": {
-    "local": "wdio run wdio.conf.js"
+    "local": "wdio run wdio.conf.js",
+    "sample-test": "browserstack-node-sdk node test/specs/products/productsInteractions.js",
+    "bsAndroid":"wdio run bs.conf.js"
   },
-
   "devDependencies": {
     "@wdio/allure-reporter": "^9.11.0",
     "@wdio/appium-service": "^9.12.1",
@@ -20,5 +21,8 @@
     "appium-uiautomator2-driver": "^4.1.5",
     "appium-wait-plugin": "^3.0.2",
     "wdio-wait-for": "^3.1.0"
+  },
+  "dependencies": {
+    "browserstack-node-sdk": "^1.34.51"
   }
 }
