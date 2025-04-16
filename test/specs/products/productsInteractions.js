@@ -12,6 +12,7 @@ describe('Products Page Tests', () => {
 		await productPage.verifyProductHeader();
         await productPage.changeListViews();
 		await commonPage.logOut();
+		
 		//await browser.relaunchActiveApp()
 	});
 
