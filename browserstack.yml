@@ -1,6 +1,6 @@
 userName: {userName}
 accessKey: {key}
-app: bs://80264519e2214d7d59597f9566bff5d16ef52cb5
+app: bs://
 platforms:
   - platformName: android
     deviceName: Samsung Galaxy S21 Ultra
