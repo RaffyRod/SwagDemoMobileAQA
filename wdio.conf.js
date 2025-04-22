@@ -76,8 +76,7 @@ export const config = {
         "appium:udid": "emulator-5554",
         "appium:appPackage": "com.swaglabsmobileapp",
         "appium:appActivity": "com.swaglabsmobileapp.SplashActivity",
-        //"appium:app": "./Apps/Android/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk",
-        'appium:app': path.join(process.cwd(), './Apps/Android/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk'),
+        'appium:app': path.join(process.cwd(), 'Apps/Android/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk'),
         'appium:appium:appSigner': 'C:\\Users\\Raffy Rodriguez\\AppData\\Local\\Android\\Sdk\\build-tools\\36.0.0\\lib\\apksigner.jar'
     }],
 
