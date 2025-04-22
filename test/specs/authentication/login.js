@@ -1,7 +1,3 @@
-// const { LoginPage } = require('../../pageobjects/loginPage.js');
-// const { ProductPage } = require('../../pageobjects/productPage.js');
-// const { CommonPage } = require('../../pageobjects/commonPage.js');
-
 import LoginPage from '../../pageobjects/loginPage';
 import ProductPage from '../../pageobjects/productPage';
 import CommonPage from '../../pageobjects/commonPage';
