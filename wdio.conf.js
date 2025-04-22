@@ -65,19 +65,33 @@ export const config = {
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://saucelabs.com/platform/platform-configurator
     //
+    before: async function() {
+        await browser.pause(5000);
+      },
+      beforeTest: async function() {
+        await browser.pause(2000);
+      },
     capabilities: [{
-        // capabilities for local Appium web tests on an Android Emulator
-        // "appium:noReset": false,
-        'appium:platformName': 'Android',
-        "appium:fullReset": true,
-        "appium:automationName": "UiAutomator2",
-        "appium:platformVersion": "14",
-        "appium:udid": "emulator-5554",
-        "appium:appPackage": "com.swaglabsmobileapp",
-        "appium:appActivity": "com.swaglabsmobileapp.SplashActivity",
-        'appium:app': path.join(process.cwd(), 'Apps/Android/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk'),
-        'appium:appSigner': path.join(process.env.USERPROFILE, 'AppData', 'Local', 'Android', 'Sdk', 'build-tools', '36.0.0', 'lib', 'apksigner.jar'),
-    }],
+        platformName: 'Android',
+        'appium:automationName': 'UiAutomator2',
+        'appium:deviceName': 'emulator-5554',
+        'appium:platformVersion': '14',
+        'appium:app': './Apps/Android/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk',
+        'appium:appPackage': 'com.swaglabsmobileapp',
+        'appium:appActivity': 'com.swaglabsmobileapp.SplashActivity',
+         browserName: '',
+        'appium:noReset': false,
+        'appium:skipUnlock': true,
+        'appium:noSign': true,
+        'appium:allowTestPackages': true,
+
+        
+        // Añade esto para cumplir con W3C
+        browserName: '', // Necesario pero vacío para Appium
+        'appium:options': {
+          automationName: 'UiAutomator2'
+        }
+      }],
 
     //
     // ===================

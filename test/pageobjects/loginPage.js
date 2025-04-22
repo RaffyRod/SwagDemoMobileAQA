@@ -1,4 +1,4 @@
-exports.LoginPage = class LoginPage {
+export default class LoginPage {
     // Element getters
     get usernameField() {
       return $('~test-Username'); // Selector por accessibility id

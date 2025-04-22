@@ -1,11 +1,13 @@
 {
   "name": "webdio-test",
+  "type": "module",
   "scripts": {
     "local": "wdio run wdio.conf.js",
     "sample-test": "browserstack-node-sdk node test/specs/products/productsInteractions.js",
-    "bsAndroid":"wdio run bs.conf.js"
+    "bsAndroid": "wdio run bs.conf.js"
   },
   "devDependencies": {
+    "@appium/execute-driver-plugin": "^4.0.4",
     "@wdio/allure-reporter": "^9.11.0",
     "@wdio/appium-service": "^9.12.1",
     "@wdio/cli": "^9.12.1",
@@ -13,12 +15,13 @@
     "@wdio/mocha-framework": "^9.12.1",
     "@wdio/visual-service": "^6.3.3",
     "appium": "^2.17.1",
+    "appium-chromedriver": "^5.0.0",
     "appium-chromium-driver": "^1.5.1",
     "appium-dashboard": "^2.0.3",
     "appium-geckodriver": "^1.4.3",
     "appium-gestures-plugin": "^4.0.1",
     "appium-reporter-plugin": "^1.1.0-beta.6",
-    "appium-uiautomator2-driver": "^4.1.5",
+    "appium-uiautomator2-driver": "^4.2.1",
     "appium-wait-plugin": "^3.0.2",
     "wdio-wait-for": "^3.1.0"
   },

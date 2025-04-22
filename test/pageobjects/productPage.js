@@ -1,6 +1,5 @@
-const data = require('../../utils/testData/testdata.json');
-
-exports.ProductPage = class ProductPage {
+import data from '../../utils/testData/testdata.json';
+export default class ProductPage {
 
     // Locators
     get productHeader() {
