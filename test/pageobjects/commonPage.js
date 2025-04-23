@@ -1,5 +1,4 @@
-
-exports.CommonPage = class CommonPage {
+export default class CommonPage {
     // Element getters
     get mobileMenu() {
       return $('//android.view.ViewGroup[@content-desc="test-Menu"]/android.view.ViewGroup/android.widget.ImageView');
